@@ -1,11 +1,11 @@
-import Nav from "./components/Nav/Nav";
+import Navigation from "./components/Navigation/Navigation";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navigation />
       <Header />
       { <Footer /> }
     </div>

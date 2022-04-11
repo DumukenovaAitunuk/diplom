@@ -1,8 +1,8 @@
-import "./Nav.css";
+import "./Navigation.css";
 
-function Nav() {
+function Navigation() {
   return (
-    <nav className="Nav">
+    <nav className="Navigation">
       <div> </div>
       <ul>
         <li><a href="/">Home</a></li>
@@ -14,4 +14,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navigation;

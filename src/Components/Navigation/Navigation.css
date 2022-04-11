@@ -1,5 +1,5 @@
 
-.Nav {
+.Navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,22 +9,22 @@
   padding: 0 1rem;
   position: sticky;
 }
-.Nav ul {
+.Navigation ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
 }
-.Nav a {
+.Navigation a {
   display: block;
   padding: .5rem 1rem;
   color: black;
   font-size: .8rem;
   text-decoration: none;
 }
-.Nav a:hover {
+.Navigation a:hover {
   background-color: rgba(255, 255, 255, .1);
 }
-.Nav img{
+.Navigation img{
   gap: 20px;
 }
