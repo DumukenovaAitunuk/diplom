@@ -1,28 +1,17 @@
 import "./Nav.css";
 
-function Navigation() {
+function Nav() {
   return (
     <nav className="Nav">
-      <div>Fresh Coffee Beans</div>
+      <div> </div>
       <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">Categories</a>
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
-        <li>
-          <a href="/">Products</a>
-        </li>
-        <li>
-          <a href="/">Contacts</a>
-        </li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Products</a></li>
+        <li><a href="/">Contacts</a></li>
       </ul>
     </nav>
   );
 }
 
-export default Navigation;
+export default Nav;
